@@ -63,7 +63,7 @@ for ()[];
 
 
 
-/*
+
 
 // video two functions
 
@@ -89,7 +89,13 @@ for (var deckNumber = 0; deckNumber < deckNames.length; deckNumber++) {
 	
 } // for deckNumber
 
-*/
+swabAllDecks(
+
+
+
+
+
+
 /*	
 var say = function(message) { console.log(message); };	
 say("I saved myself " + 8 + " whole characters");
@@ -131,3 +137,5 @@ say("2000 is a leap year: " + isLeapYear(2000));
 say("1900 is a leap year: " + isLeapYear(1900));
 say("2008 is a leap year: " + isLeapYear(2008));
 say("2011 is a leap year: " + isLeapYear(2011));
+
+*/
