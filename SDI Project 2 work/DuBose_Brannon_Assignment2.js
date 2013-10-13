@@ -142,3 +142,7 @@ payment = monthlyPayment(CBRPrice)
 
 console.log("I choose the 12 month financing option.");
 
+console.log("Awesome!!! I now have a CBR500r for $" + CBRPrice + " with a $" + myDownPayment); 
+console.log(" and %2.99 interest rate and the 12 month financing option!");
+console.log("Congradulations!! Im definitly gonna get counted of points for the returned values portion.....");
+
