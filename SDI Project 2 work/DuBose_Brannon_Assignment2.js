@@ -112,7 +112,7 @@ var downPayment = function(interestRate) {
 myDownPayment = downPayment(8.99)
 
 
-var monthlyPayment = function (monthly) {
+var monthlyPayment = function (CBRPrice) {
 	
 	var myPayment = function (numerator, denominator) { 
 		var fraction = numerator / denominator;
@@ -120,16 +120,25 @@ var monthlyPayment = function (monthly) {
 		
 	};
 	
-	if (myPayment (monthly, 12)) { return true;}
-	else if(myPayment (monthly, 24)) { return false;}
-	else if(myPayment( monthly, 48)) { return true; }
-	else { return false;}
+	monthly = CBRPrice
+	
+	if (myPayment (monthly / 12)) { 
+		
+	
+	}
+	else if(myPayment (monthly / 24)) { }
+	else if(myPayment( monthly / 48)) { }
+	
+	
+	console.log("My monthly payments for 12 month financing is " + (monthly / 12) + " a month.");
+	console.log("My monthly payments for 24 month financing is " + (monthly / 24) + " a month.");
+	console.log("My monthly payments for 48 month financing is " + (monthly / 48) + " a month.");
 	
 };
 
-say("2000 is a leap year: " + isLeapYear(2000));
-say("1900 is a leap year: " + isLeapYear(1900));
-say("2008 is a leap year: " + isLeapYear(2008));
-say("2011 is a leap year: " + isLeapYear(2011));
 
+payment = monthlyPayment(CBRPrice)
+
+
+console.log("I choose the 12 month financing option.");
 
