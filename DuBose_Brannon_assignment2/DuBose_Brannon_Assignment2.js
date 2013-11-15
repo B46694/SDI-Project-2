@@ -68,7 +68,7 @@ var monthlyPayment = function (motorcyclePrice) {
 
 // Prompt for price willing to pay
 finalPrice = parseInt(prompt("Thank you for choosing the " + motorcycle + "!" + " The price is " + motorcyclePrice + ". What are you willing to pay?"));
-// Calling my procedure to determin what to do with finalPrice
+// Calling my procedure to determine what to do with finalPrice
 bikePrice(finalPrice);
 // Confirm determining the return based on the boolean value
 yesPrice = confirm("Are you willing to pay the dealers price?");
